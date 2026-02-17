@@ -1,0 +1,4 @@
+Git practice notes
+
+- main branch: stable history
+- feature branches: used for experiments and small changes
