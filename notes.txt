@@ -1,5 +1,5 @@
 Git practice notes
 
 - main branch: stable history for this repo
-- feature branches: used for experiments, bug fixes, and new ideas
+- feature branches: short-lived branches created from main
 - goal: practice common Git commands until they are muscle memory
