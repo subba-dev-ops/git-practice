@@ -1,23 +1,21 @@
 # Git Practice Workflows
 
-This repository is a sandbox for practicing essential Git commands and workflows: branching, committing, merging, and resolving merge conflicts.
+This repository demonstrates my comfort with essential Git workflows: branching, committing, merging, and resolving merge conflicts. Used as a hands-on sandbox to keep Git commands as muscle memory for real projects like [AWS Nginx Reverse Proxy](https://github.com/subba-dev-ops/aws-nginx-reverse-proxy-lb).
 
-## What I practice here
+## What I practiced here
 
-- Initializing a repository and creating commits.
-- Creating and working on feature branches.
-- Merging branches back into `main`.
-- Creating and resolving simple merge conflicts.
+- Creating and switching between branches (`git checkout -b`, `git checkout`)
+- Making commits on feature branches
+- Merging feature branches into `main`
+- Resolving simple merge conflicts
 
-Typical flow:
+## Git history walkthrough
 
-1. Start from `main`.
-2. Create a new feature branch.
-3. Make and commit changes.
-4. Merge the feature branch back into `main`.
-5. Occasionally create intentional conflicts to practice conflict resolution.
+See the commit history and branches to trace my practice workflow:
 
+1. **Initial commit** → base files created
+2. **`feature/update-notes`** → expanded notes.txt on a feature branch → merged to main
+3. **`feature/conflict-example`** → intentionally created a conflict → resolved and merged
 
-## Why this repo exists
+## Typical workflow demonstrated
 
-This is not an application, it is a learning lab to keep my Git basics sharp and to show my comfort with everyday Git workflows used in real projects.
